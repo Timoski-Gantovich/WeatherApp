@@ -1,7 +1,8 @@
 // *Your* API KEY
 const APIKEY = "cd71b381a8cede24534272a932e79c73";
 const city = "Post Falls";
-const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIKEY}&units=imperial`;
+const state = "Idaho";
+const url = `https://api.openweathermap.org/data/2.5/weather?q={city},{state}&appid={API key}&units=imperial`;
 
 // check-check
 console.log(url);
