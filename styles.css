@@ -1,5 +1,19 @@
 body {
-  background: lightblue;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0.1em 0.1em 0 rgba(0, 0, 0, 0.3);
+  font-size: 1.3em;
+  height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgba(197, 205, 205, 1) 0%,
+    rgba(0, 57, 197, 0.9583430784423145) 50%,
+    rgba(150, 154, 157, 1) 100%
+  );
 }
 h1 {
   margin: 0 auto;
