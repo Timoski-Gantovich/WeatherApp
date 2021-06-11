@@ -33,6 +33,9 @@ function getWeather() {
         location.innerHTML =
           data.name + " (" + latitude + "°, " + longitude + "°)";
         description.innerHTML = data.weather[0].main;
+        let locationIcon = document.querySelector(".weather-icon");
+        const { icon } = data.weather[0];
+        locationIcon.innerHTML = `<img src="icons/${icon}.png">`;
       });
   }
 
